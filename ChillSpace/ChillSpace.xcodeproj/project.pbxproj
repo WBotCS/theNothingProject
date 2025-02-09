@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87C7216B2D58A91400D0C1FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87C7216A2D58A91400D0C1FA /* Info.plist */; };
+		87C7216C2D58A91400D0C1FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87C7216A2D58A91400D0C1FA /* Info.plist */; };
+		87C7216D2D58A91400D0C1FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87C7216A2D58A91400D0C1FA /* Info.plist */; };
+		87C7216F2D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7216E2D58A96800D0C1FA /* SpotifyAuthManager.swift */; };
+		87C721702D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7216E2D58A96800D0C1FA /* SpotifyAuthManager.swift */; };
+		87C721712D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7216E2D58A96800D0C1FA /* SpotifyAuthManager.swift */; };
+		87C721732D58A99C00D0C1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C721722D58A99C00D0C1FA /* AppDelegate.swift */; };
+		87C721742D58A99C00D0C1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C721722D58A99C00D0C1FA /* AppDelegate.swift */; };
+		87C721752D58A99C00D0C1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C721722D58A99C00D0C1FA /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		878781662D588A4F00FD73C8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +39,9 @@
 		878781542D588A4C00FD73C8 /* ChillSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChillSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878781652D588A4F00FD73C8 /* ChillSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChillSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8787816F2D588A4F00FD73C8 /* ChillSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChillSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C7216A2D58A91400D0C1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C7216E2D58A96800D0C1FA /* SpotifyAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthManager.swift; sourceTree = "<group>"; };
+		87C721722D58A99C00D0C1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +90,9 @@
 		8787814B2D588A4C00FD73C8 = {
 			isa = PBXGroup;
 			children = (
+				87C721722D58A99C00D0C1FA /* AppDelegate.swift */,
+				87C7216E2D58A96800D0C1FA /* SpotifyAuthManager.swift */,
+				87C7216A2D58A91400D0C1FA /* Info.plist */,
 				878781562D588A4C00FD73C8 /* ChillSpace */,
 				878781682D588A4F00FD73C8 /* ChillSpaceTests */,
 				878781722D588A4F00FD73C8 /* ChillSpaceUITests */,
@@ -212,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C7216B2D58A91400D0C1FA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C7216C2D58A91400D0C1FA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C7216D2D58A91400D0C1FA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C721742D58A99C00D0C1FA /* AppDelegate.swift in Sources */,
+				87C7216F2D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C721732D58A99C00D0C1FA /* AppDelegate.swift in Sources */,
+				87C721702D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C721752D58A99C00D0C1FA /* AppDelegate.swift in Sources */,
+				87C721712D58A96800D0C1FA /* SpotifyAuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
